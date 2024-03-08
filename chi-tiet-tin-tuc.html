@@ -1,0 +1,997 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body class="overflow-x-hidden">
+    <nav class="navbar bg-gradient navbar-expand-lg  bg-warning  ">
+        <div class="container">
+
+
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#" aria-current="page">Hotline:
+                            <span class="visually-hidden">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">0826 15 15 15</a>
+                    </li>
+
+                </ul>
+                <form class="d-flex my-2 my-lg-0">
+                    <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#" aria-current="page">Liên hệ
+                                <span class="visually-hidden">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Hồ sơ năng lực</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Tuyển dụng</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./dang-ky.html">Đăng ký</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./dang-nhap.html">Đăng nhập</a>
+                        </li>
+                    </ul>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light  ">
+        <div class="container">
+            <a class="navbar-brand" href="./index.html"><img style="height:  ;"
+                    src="https://cdn.animaapp.com/projects/65e9bdee82ef1684dfd23e1f/releases/65e9be514cad58186f14407c/img/link---logo-pttravel-png@2x.png"
+                    class="img-fluid rounded-top" alt="" />
+            </a>
+            <button class="navbar-toggler hidden-lg-up" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                aria-label="Toggle navigation"><i class="bi bi-list"></i></button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">DU LỊCH TRONG NƯỚC</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownId">
+                            <a class="dropdown-item" href="#">Action 1</a>
+                            <a class="dropdown-item" href="#">Action 2</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">DU LỊCH NƯỚC NGOÀI</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownId">
+                            <a class="dropdown-item" href="#">Action 1</a>
+                            <a class="dropdown-item" href="#">Action 2</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">THUÊ XE DU LỊCH</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownId">
+                            <a class="dropdown-item" href="#">Action 1</a>
+                            <a class="dropdown-item" href="#">Action 2</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">DỊCH VỤ VISA</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownId">
+                            <a class="dropdown-item" href="#">Action 1</a>
+                            <a class="dropdown-item" href="#">Action 2</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">TIN TỨC</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownId">
+                            <a class="dropdown-item" href="#">Action 1</a>
+                            <a class="dropdown-item" href="#">Action 2</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+    <div class="px-4 py-5 text-light  text-center bg-secondary  justify-content-center align-items-center d-flex"
+        style="background-image: url(https://cdn.animaapp.com/projects/65e9bdee82ef1684dfd23e1f/releases/65ea7e8d978def91b78f2cb2/img/banner-cat-2-jpg.png) ; background-size:cover ; background-position: center; background-repeat: no-repeat;">
+
+        <div class="p-5  " style="background-color: rgba(0, 0, 0, 0.5); ">
+            <h1 class="display-5 fw-bold text-light">DU lỊCH GIẢI SẦU - QUÊN HẾT ÂU LO</h1>
+            <h3> Nhanh tay tìm kiếm Tour và đặt Tour tại PT Travel để nhận được nhiều ưu đãi!</h3>
+            <div class="col-lg-6 mx-auto">
+
+                <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                    <div class="input-group mb-3">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">Chọn điểm đến
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Separated link</a></li>
+                        </ul>
+                        <input type="text" placeholder="Tìm kiếm Tour ...
+                        " class="form-control" aria-label="Text input with dropdown button">
+                        <a name="" id="" class="btn btn-primary" href="#" role="button"><i class="bi bi-search"></i> TÌM
+                            TOUR NGAY</a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bg-primary p-1 text-white">
+        <div class="container">
+            <h1>CẨM NANG DU LỊCH QUỐC TẾ
+            </h1> <br>
+            <p>Trang chủ / Cẩm Nang Du Lịch Quốc Tế</p>
+        </div>
+
+    </div>
+    <div>
+        <div class="container mt-5">
+            <div class="row justify-content-center g-5">
+                <div class="col-md-9 col-sm-12 ">
+                    <h2 class="text-primary">Du lịch Phượng Hoàng cổ trấn Trung Quốc | Kinh nghiệm A-Z
+                    </h2>
+                    <div class="entry-content single-page">
+
+                        <p style="text-align: justify;"><i><span style="font-weight: 400;">Phượng Hoàng cổ trấn là một
+                                    trong những điểm đến thu hút đông đảo du khách trong và ngoài nước đến tham quan.
+                                    Nếu bạn đang thắc mắc về </span></i><span style="color: #0000ff;"><a
+                                    style="color: #0000ff;"
+                                    href="https://pttravel.vn/du-lich-phuong-hoang-co-tran-trung-quoc/"><b><i>du lịch
+                                            Phượng Hoàng cổ trấn Trung Quốc</i></b></a></span><i><span
+                                    style="font-weight: 400;"> có gì, thì hãy theo dõi bài viết dưới đây. PT Travel sẽ
+                                    cung cấp cho bạn đầy đủ các thông tin về chuyến du lịch tới Phượng Hoàng cổ trấn
+                                    này.</span></i></p>
+                        <div id="ez-toc-container"
+                            class="ez-toc-v2_0_50 counter-hierarchy ez-toc-counter ez-toc-light-blue ez-toc-container-direction">
+                            <div class="ez-toc-title-container">
+                                <p class="ez-toc-title">Nội dung bài viết</p>
+                                <span class="ez-toc-title-toggle"><a href="#"
+                                        class="ez-toc-pull-right ez-toc-btn ez-toc-btn-xs ez-toc-btn-default ez-toc-toggle ez-toc-loaded"
+                                        aria-label="Toggle Table of Content" role="button"><label
+                                            for="item-65eb0f0d8bab1" aria-hidden="true"><span
+                                                style="display: flex;align-items: center;width: 35px;height: 30px;justify-content: center;direction:ltr;"><svg
+                                                    style="fill: #444444;color:#444444"
+                                                    xmlns="http://www.w3.org/2000/svg" class="list-377408" width="20px"
+                                                    height="20px" viewBox="0 0 24 24" fill="none">
+                                                    <path
+                                                        d="M6 6H4v2h2V6zm14 0H8v2h12V6zM4 11h2v2H4v-2zm16 0H8v2h12v-2zM4 16h2v2H4v-2zm16 0H8v2h12v-2z"
+                                                        fill="currentColor"></path>
+                                                </svg><svg style="fill: #444444;color:#444444"
+                                                    class="arrow-unsorted-368013" xmlns="http://www.w3.org/2000/svg"
+                                                    width="10px" height="10px" viewBox="0 0 24 24" version="1.2"
+                                                    baseProfile="tiny">
+                                                    <path
+                                                        d="M18.2 9.3l-6.2-6.3-6.2 6.3c-.2.2-.3.4-.3.7s.1.5.3.7c.2.2.4.3.7.3h11c.3 0 .5-.1.7-.3.2-.2.3-.5.3-.7s-.1-.5-.3-.7zM5.8 14.7l6.2 6.3 6.2-6.3c.2-.2.3-.5.3-.7s-.1-.5-.3-.7c-.2-.2-.4-.3-.7-.3h-11c-.3 0-.5.1-.7.3-.2.2-.3.5-.3.7s.1.5.3.7z">
+                                                    </path>
+                                                </svg></span></label><input type="checkbox"
+                                            id="item-65eb0f0d8bab1"></a></span>
+                            </div>
+                            <nav>
+                                <ul class="ez-toc-list ez-toc-list-level-1 " style="">
+                                    <li class="ez-toc-page-1 ez-toc-heading-level-2"><a
+                                            class="ez-toc-link ez-toc-heading-1"
+                                            href="#1_gioi_thieu_chung_phuong_hoang_co_tran"
+                                            title="1. Giới thiệu chung Phượng Hoàng cổ trấn">1. Giới thiệu chung Phượng
+                                            Hoàng cổ trấn</a></li>
+                                    <li class="ez-toc-page-1 ez-toc-heading-level-2"><a
+                                            class="ez-toc-link ez-toc-heading-2"
+                                            href="#2_thoi_diem_di_du_lich_phuong_hoang_co_tran_trung_quoc"
+                                            title="2. Thời điểm đi du lịch Phượng Hoàng cổ trấn Trung Quốc">2. Thời điểm
+                                            đi du lịch Phượng Hoàng cổ trấn Trung Quốc</a></li>
+                                    <li class="ez-toc-page-1 ez-toc-heading-level-2"><a
+                                            class="ez-toc-link ez-toc-heading-3"
+                                            href="#3_giay_to_can_chuan_bi_khi_di_du_lich_phuong_hoang_co_tran"
+                                            title="3. Giấy tờ cần chuẩn bị khi đi du lịch Phượng Hoàng cổ trấn">3. Giấy
+                                            tờ cần chuẩn bị khi đi du lịch Phượng Hoàng cổ trấn</a></li>
+                                    <li class="ez-toc-page-1 ez-toc-heading-level-2"><a
+                                            class="ez-toc-link ez-toc-heading-4"
+                                            href="#4_cach_di_chuyen_den_phuong_hoang_co_tran_cua_trung_quoc"
+                                            title="4. Cách di chuyển đến Phượng Hoàng cổ Trấn của Trung Quốc">4. Cách di
+                                            chuyển đến Phượng Hoàng cổ Trấn của Trung Quốc</a>
+                                        <ul class="ez-toc-list-level-3">
+                                            <li class="ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-5"
+                                                    href="#41_bang_may_bay" title="4.1 Bằng Máy Bay">4.1 Bằng Máy
+                                                    Bay</a></li>
+                                            <li class="ez-toc-page-1 ez-toc-heading-level-3"><a
+                                                    class="ez-toc-link ez-toc-heading-6" href="#42_bang_tau_hoa"
+                                                    title="4.2 Bằng Tàu Hỏa">4.2 Bằng Tàu Hỏa</a></li>
+                                            <li class="ez-toc-page-1 ez-toc-heading-level-3"><a
+                                                    class="ez-toc-link ez-toc-heading-7" href="#3_bang_xe_khach"
+                                                    title="3. Bằng Xe Khách">3. Bằng Xe Khách</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="ez-toc-page-1 ez-toc-heading-level-2"><a
+                                            class="ez-toc-link ez-toc-heading-8"
+                                            href="#5_noi_luu_tru_tai_phuong_hoang_co_tran"
+                                            title="5. Nơi lưu trú tại Phượng Hoàng cổ trấn">5. Nơi lưu trú tại Phượng
+                                            Hoàng cổ trấn</a></li>
+                                    <li class="ez-toc-page-1 ez-toc-heading-level-2"><a
+                                            class="ez-toc-link ez-toc-heading-9"
+                                            href="#6_nhung_dia_diem_noi_tieng_phuong_hoang_co_tran"
+                                            title="6. Những địa điểm nổi tiếng Phượng Hoàng cổ trấn">6. Những địa điểm
+                                            nổi tiếng Phượng Hoàng cổ trấn</a>
+                                        <ul class="ez-toc-list-level-3">
+                                            <li class="ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-10"
+                                                    href="#61_truong_gia_gioi_%e2%80%93_72_ky_lau"
+                                                    title="6.1 Trương Gia Giới – 72 Kỳ Lầu">6.1 Trương Gia Giới – 72 Kỳ
+                                                    Lầu</a></li>
+                                            <li class="ez-toc-page-1 ez-toc-heading-level-3"><a
+                                                    class="ez-toc-link ez-toc-heading-11"
+                                                    href="#62_pho_co_o_phuong_hoang_co_tran"
+                                                    title="6.2 Phố cổ ở Phượng Hoàng cổ trấn&nbsp;">6.2 Phố cổ ở Phượng
+                                                    Hoàng cổ trấn&nbsp;</a></li>
+                                            <li class="ez-toc-page-1 ez-toc-heading-level-3"><a
+                                                    class="ez-toc-link ez-toc-heading-12"
+                                                    href="#63_vuon_quoc_gia_truong_gia_gioi"
+                                                    title="6.3 Vườn Quốc Gia Trương Gia Giới">6.3 Vườn Quốc Gia Trương
+                                                    Gia Giới</a></li>
+                                            <li class="ez-toc-page-1 ez-toc-heading-level-3"><a
+                                                    class="ez-toc-link ez-toc-heading-13" href="#64_thien_mon_son"
+                                                    title="6.4 Thiên Môn Sơn">6.4 Thiên Môn Sơn</a></li>
+                                            <li class="ez-toc-page-1 ez-toc-heading-level-3"><a
+                                                    class="ez-toc-link ez-toc-heading-14"
+                                                    href="#65_cau_kinh_van_thien_do"
+                                                    title="6.5 Cầu Kính Vân Thiên Độ">6.5 Cầu Kính Vân Thiên Độ</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="ez-toc-page-1 ez-toc-heading-level-2"><a
+                                            class="ez-toc-link ez-toc-heading-15"
+                                            href="#7_nhung_mon_ngon_doc_dao_ban_phai_thu"
+                                            title="7. Những món ngon độc đáo BẠN PHẢI THỬ">7. Những món ngon độc đáo BẠN
+                                            PHẢI THỬ</a></li>
+                                    <li class="ez-toc-page-1 ez-toc-heading-level-2"><a
+                                            class="ez-toc-link ez-toc-heading-16"
+                                            href="#8_qua_luu_niem_khi_di_du_lich_phuong_hoang_co_tran"
+                                            title="8. Quà lưu niệm khi đi du lịch Phượng Hoàng cổ trấn">8. Quà lưu niệm
+                                            khi đi du lịch Phượng Hoàng cổ trấn</a></li>
+                                    <li class="ez-toc-page-1 ez-toc-heading-level-2"><a
+                                            class="ez-toc-link ez-toc-heading-17"
+                                            href="#9_chi_phi_du_lich_phuong_hoang_co_tran_trung_quoc"
+                                            title="9. Chi phí du lịch Phượng Hoàng cổ trấn Trung Quốc">9. Chi phí du
+                                            lịch Phượng Hoàng cổ trấn Trung Quốc</a></li>
+                                    <li class="ez-toc-page-1 ez-toc-heading-level-2"><a
+                                            class="ez-toc-link ez-toc-heading-18"
+                                            href="#10_cong_ty_to_chuc_tour_du_lich_trung_quoc"
+                                            title="10. Công ty tổ chức tour du lịch Trung Quốc">10. Công ty tổ chức tour
+                                            du lịch Trung Quốc</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <h2 style="text-align: justify;"><span class="ez-toc-section"
+                                id="1_gioi_thieu_chung_phuong_hoang_co_tran"
+                                ez-toc-data-id="#1_gioi_thieu_chung_phuong_hoang_co_tran"></span><span
+                                style="color: #0a77a9;"><b>1. Giới thiệu chung Phượng Hoàng cổ trấn</b></span><span
+                                class="ez-toc-section-end"></span></h2>
+                        <p style="text-align: justify;"><span style="font-weight: 400;">Phượng Hoàng cổ trấn nằm ngay
+                                tại huyện Phượng Hoàng, ở phía Tây của tỉnh Hồ Nam, Trung Quốc. Thành cổ này đã tồn tại
+                                ở đây hơn 1300 năm và là nơi sinh sống của nhiều dân tộc thiểu số. Nơi đây mang tên gọi
+                                “Phượng Hoàng cổ trấn” vì phía Tây Nam của thị trấn có một ngọn núi dáng trông giống một
+                                con phượng hoàng đang bay lên.</span></p>
+                        <p style="text-align: justify;"><span style="font-weight: 400;">Phượng Hoàng cổ trấn là nơi sinh
+                                sống chủ yếu của dân tộc người Miêu, người Thổ Gia và người Hán. Toàn bộ những kiến trúc
+                                cổ của Phượng Hoàng vẫn còn giữ lại cho đến nay, đa phần đều là công xây dựng từ những
+                                thời nhà Thanh (1644 đến 1911), do người Hán và người Miêu hoàn thiện lên.</span></p>
+                        <figure id="attachment_10764" aria-describedby="caption-attachment-10764" style="width: 800px"
+                            class="wp-caption aligncenter w-100">
+                            <img fetchpriority="high" decoding="async" title="Khung cảnh khu phố Phượng Hoàng cổ trấn"
+                                alt="Khung cảnh khu phố Phượng Hoàng cổ trấn"
+                                data-srcset="https://pttravel.vn/wp-content/uploads/2023/11/Khung-canh-khu-pho-Phuong-Hoang-co-tran.jpg 800w, https://pttravel.vn/wp-content/uploads/2023/11/Khung-canh-khu-pho-Phuong-Hoang-co-tran-768x480.jpg 768w, https://pttravel.vn/wp-content/uploads/2023/11/Khung-canh-khu-pho-Phuong-Hoang-co-tran-500x313.jpg 500w"
+                                data-src="https://pttravel.vn/wp-content/uploads/2023/11/Khung-canh-khu-pho-Phuong-Hoang-co-tran.jpg"
+                                data-sizes="(max-width: 800px) 100vw, 800px"
+                                class=" img-fluid rounded-top   w-100 wp-image-10764 size-full lazyloaded"
+                                src="https://pttravel.vn/wp-content/uploads/2023/11/Khung-canh-khu-pho-Phuong-Hoang-co-tran.jpg"
+                                sizes="(max-width: 800px) 100vw, 800px"
+                                srcset="https://pttravel.vn/wp-content/uploads/2023/11/Khung-canh-khu-pho-Phuong-Hoang-co-tran.jpg 800w, https://pttravel.vn/wp-content/uploads/2023/11/Khung-canh-khu-pho-Phuong-Hoang-co-tran-768x480.jpg 768w, https://pttravel.vn/wp-content/uploads/2023/11/Khung-canh-khu-pho-Phuong-Hoang-co-tran-500x313.jpg 500w"><noscript><img
+                                    fetchpriority="high" decoding="async" class="wp-image-10764 size-full"
+                                    title="Khung cảnh khu phố Phượng Hoàng cổ trấn"
+                                    src="https://pttravel.vn/wp-content/uploads/2023/11/Khung-canh-khu-pho-Phuong-Hoang-co-tran.jpg"
+                                    alt="Khung cảnh khu phố Phượng Hoàng cổ trấn" width="800" height="500"
+                                    srcset="https://pttravel.vn/wp-content/uploads/2023/11/Khung-canh-khu-pho-Phuong-Hoang-co-tran.jpg 800w, https://pttravel.vn/wp-content/uploads/2023/11/Khung-canh-khu-pho-Phuong-Hoang-co-tran-768x480.jpg 768w, https://pttravel.vn/wp-content/uploads/2023/11/Khung-canh-khu-pho-Phuong-Hoang-co-tran-500x313.jpg 500w"
+                                    sizes="(max-width: 800px) 100vw, 800px" /></noscript>
+                            <figcaption id="caption-attachment-10764" class="wp-caption-text">Khung cảnh khu phố Phượng
+                                Hoàng cổ trấn</figcaption>
+                        </figure>
+                        <p style="text-align: justify;"><span style="font-weight: 400;">Đến đây, bạn sẽ được chiêm
+                                ngưỡng khung cảnh non nước hữu tình, cùng kiến trúc đơn sơ và trầm mặc từ những ngôi nhà
+                                gỗ, đường lát đá với hàng trăm năm tuổi. Những công trình kiến trúc này tạo nên bức
+                                tranh tổng thể Phượng Hoàng cổ trấn lôi cuốn và đẹp mắt.&nbsp;</span></p>
+                        <h2 style="text-align: justify;"><span class="ez-toc-section"
+                                id="2_thoi_diem_di_du_lich_phuong_hoang_co_tran_trung_quoc"
+                                ez-toc-data-id="#2_thoi_diem_di_du_lich_phuong_hoang_co_tran_trung_quoc"></span><span
+                                style="color: #0a77a9;"><b>2. Thời điểm đi du lịch Phượng Hoàng cổ trấn Trung
+                                    Quốc</b></span><span class="ez-toc-section-end"></span></h2>
+                        <p style="text-align: justify;"><span style="font-weight: 400;">Bạn có thể tới tham quan Phượng
+                                Hoàng cổ trấn vào bất kỳ thời điểm nào trong năm, đều sẽ được ngắm nhìn những cảnh đẹp
+                                đặc trưng theo từng mùa nơi đây. Tuy nhiên thì, khoảng thời gian đẹp nhất, thích hợp cho
+                                du khách đến du lịch tại Phượng Hoàng cổ trấn, chính là từ </span><b>tháng 7 – tháng
+                                9</b><span style="font-weight: 400;">.&nbsp;</span></p>
+                        <p style="text-align: justify;"><span style="font-weight: 400;">Lúc này, thời tiết ở đây rất dễ
+                                chịu và mát mẻ, bạn sẽ được tận mắt ngắm nhìn các cây cầu, hay những ngôi nhà độc đáo cổ
+                                kính, cùng những sườn núi được bao phủ bơi với hàng cây xanh mướt. Đây sẽ là những trải
+                                nghiệm đáng có và thú vị nhất dành cho bạn khi du lịch Phượng Hoàng cổ trấn vào tháng 7
+                                – tháng 9.</span></p>
+                        <h2 style="text-align: justify;"><span class="ez-toc-section"
+                                id="3_giay_to_can_chuan_bi_khi_di_du_lich_phuong_hoang_co_tran"
+                                ez-toc-data-id="#3_giay_to_can_chuan_bi_khi_di_du_lich_phuong_hoang_co_tran"></span><span
+                                style="color: #0a77a9;"><b>3. Giấy tờ cần chuẩn bị khi đi du lịch Phượng Hoàng cổ
+                                    trấn</b></span><span class="ez-toc-section-end"></span></h2>
+                        <p style="text-align: justify;"><span style="font-weight: 400;">Khi đi du lịch Phượng Hoàng Cổ
+                                Trấn, bạn cần chuẩn bị một số giấy tờ quan trọng để đảm bảo mọi thủ tục diễn ra một cách
+                                nhanh chóng và thuận tiện nhất. Sau đây là một số giấy tờ bạn cần chuẩn bị khi đi
+                            </span><b>du lịch Phượng Hoàng cổ trấn Trung Quốc</b><span
+                                style="font-weight: 400;">:</span></p>
+                        <ul style="text-align: justify;">
+                            <li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Hộ chiếu: Bạn
+                                    cần mang theo hộ chiếu, khi còn ít nhất 6 tháng thời hạn còn lại.&nbsp;</span></li>
+                            <li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Visa: Visa
+                                    Trung Quốc là thứ bắt buộc đầu tiên bạn cần phải có. Xin visa ít nhất trước 1 tháng,
+                                    để tránh những vấn đề cho bạn về giấy tờ, thủ tục sai sót thông tin.</span></li>
+                        </ul>
+                        <figure id="attachment_10765" aria-describedby="caption-attachment-10765" class="wp
+                            -caption aligncenter w-100"><img decoding="async"
+                                title="Giấy tờ cần chuẩn bị khi du lịch Phượng Hoàng cổ trấn"
+                                alt="Giấy tờ cần chuẩn bị khi du lịch Phượng Hoàng cổ trấn" width="800" height="500"
+                                data-srcset="https://pttravel.vn/wp-content/uploads/2023/11/Giay-to-can-chuan-bi-khi-du-lich-Phuong-Hoang-co-tran.jpg 800w, https://pttravel.vn/wp-content/uploads/2023/11/Giay-to-can-chuan-bi-khi-du-lich-Phuong-Hoang-co-tran-768x480.jpg 768w, https://pttravel.vn/wp-content/uploads/2023/11/Giay-to-can-chuan-bi-khi-du-lich-Phuong-Hoang-co-tran-500x313.jpg 500w"
+                                data-src="https://pttravel.vn/wp-content/uploads/2023/11/Giay-to-can-chuan-bi-khi-du-lich-Phuong-Hoang-co-tran.jpg"
+                                data-sizes="(max-width: 800px) 100vw, 800px"
+                                class="img-fluid rounded-top   w-100 wp-image-10765 size-full lazyloaded"
+                                src="https://pttravel.vn/wp-content/uploads/2023/11/Giay-to-can-chuan-bi-khi-du-lich-Phuong-Hoang-co-tran.jpg"
+                                sizes="(max-width: 800px) 100vw, 800px"
+                                srcset="https://pttravel.vn/wp-content/uploads/2023/11/Giay-to-can-chuan-bi-khi-du-lich-Phuong-Hoang-co-tran.jpg 800w, https://pttravel.vn/wp-content/uploads/2023/11/Giay-to-can-chuan-bi-khi-du-lich-Phuong-Hoang-co-tran-768x480.jpg 768w, https://pttravel.vn/wp-content/uploads/2023/11/Giay-to-can-chuan-bi-khi-du-lich-Phuong-Hoang-co-tran-500x313.jpg 500w"><noscript><img
+                                    decoding="async" class="wp-image-10765 size-full"
+                                    title="Giấy tờ cần chuẩn bị khi du lịch Phượng Hoàng cổ trấn"
+                                    src="https://pttravel.vn/wp-content/uploads/2023/11/Giay-to-can-chuan-bi-khi-du-lich-Phuong-Hoang-co-tran.jpg"
+                                    alt="Giấy tờ cần chuẩn bị khi du lịch Phượng Hoàng cổ trấn" width="800" height="500"
+                                    srcset="https://pttravel.vn/wp-content/uploads/2023/11/Giay-to-can-chuan-bi-khi-du-lich-Phuong-Hoang-co-tran.jpg 800w, https://pttravel.vn/wp-content/uploads/2023/11/Giay-to-can-chuan-bi-khi-du-lich-Phuong-Hoang-co-tran-768x480.jpg 768w, https://pttravel.vn/wp-content/uploads/2023/11/Giay-to-can-chuan-bi-khi-du-lich-Phuong-Hoang-co-tran-500x313.jpg 500w"
+                                    sizes="(max-width: 800px) 100vw, 800px" /></noscript>
+                            <figcaption id="caption-attachment-10765" class="wp-caption-text">Giấy tờ cần chuẩn bị khi
+                                du lịch Phượng Hoàng cổ trấn</figcaption>
+                        </figure>
+                        <ul style="text-align: justify;">
+                            <li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Vé máy bay và
+                                    giấy xác nhận đặt phòng: Bạn đem theo phiếu đặt vé máy bay và giấy xác nhận đặt
+                                    phòng khách sạn của mình. Điều cần thiết cho việc kiểm tra và đăng ký lưu
+                                    trú.</span></li>
+                            <li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Tiền mặt và thẻ
+                                    tín dụng: Đảm bảo việc bạn có đủ tiền mặt và thẻ tín dụng, để dễ dàng thanh toán cho
+                                    các dịch vụ và mua sắm tại Trung Quốc.</span></li>
+                        </ul>
+                        <h2 style="text-align: justify;"><span class="ez-toc-section"
+                                id="4_cach_di_chuyen_den_phuong_hoang_co_tran_cua_trung_quoc"
+                                ez-toc-data-id="#4_cach_di_chuyen_den_phuong_hoang_co_tran_cua_trung_quoc"></span><span
+                                style="color: #0a77a9;"><b>4. Cách di chuyển đến Phượng Hoàng cổ Trấn của Trung
+                                    Quốc</b></span><span class="ez-toc-section-end"></span></h2>
+                        <p style="text-align: justify;"><span style="font-weight: 400;">Để đi đến Phượng Hoàng Cổ Trấn
+                                từ Việt Nam, bạn có thể lựa chọn 3 cách di chuyển gợi ý sau:</span></p>
+                        <h3 style="text-align: justify;"><span class="ez-toc-section" id="41_bang_may_bay"
+                                ez-toc-data-id="#41_bang_may_bay"></span><span style="font-weight: 400;">4.1 Bằng Máy
+                                Bay</span><span class="ez-toc-section-end"></span></h3>
+                        <p style="text-align: justify;"><span style="font-weight: 400;">Di chuyển bằng máy bay được hầu
+                                hết du khách lựa chọn để đến Phường Hoàng cổ trấn. Đây là phương tiện di chuyển thuận
+                                tiện và nhanh nhất, giúp bạn tiết kiệm được khá nhiều thời gian du lịch của
+                                mình.&nbsp;</span></p>
+                        <p style="text-align: justify;"><span style="font-weight: 400;">Bạn đặt vé bay từ sân bay quốc
+                                tế tại TP.HCM hoặc Hà Nội để đến Trương Gia Giới. Sau đó, từ Trương Gia Giới bạn có thể
+                                lựa chọn đi xe buýt để đến Phượng Hoàng Cổ Trấn. Các hãng máy bay bạn có thể lựa chọn
+                                như: Vietnam Airlines, Jetstar,…</span></p>
+                        <h3 style="text-align: justify;"><span class="ez-toc-section" id="42_bang_tau_hoa"
+                                ez-toc-data-id="#42_bang_tau_hoa"></span><span style="font-weight: 400;">4.2 Bằng Tàu
+                                Hỏa</span><span class="ez-toc-section-end"></span></h3>
+                        <p style="text-align: justify;"><span style="font-weight: 400;">Nếu ở khu vực phía Bắc Việt Nam
+                                có thể di chuyển bằng tàu hòa. Tuy nhiên hành trình này sẽ kéo dài gần 1 ngày và cần
+                                phải chuyển tàu khá nhiều lần. Đây là phương tiện được khá ít du khách lựa chọn đi du
+                                lịch Phượng Hoàng cổ trấn Trung Quốc.</span></p>
+                        <p style="text-align: justify;"><span style="font-weight: 400;">Bạn mua vé tàu hỏa đi từ Gia Lâm
+                                tới Nam Ninh. Sau đó đi chuyến tiếp từ Nam Ninh đến ga Cát Thủ ở Trương Gia Giới (khoảng
+                                15 tiếng). Khi đến Trương Gia Giới, bạn nên ở lại qua đêm và hôm sau di chuyển bằng xe
+                                buýt đi Phượng Hoàng cổ trấn.</span></p>
+                        <h3 style="text-align: justify;"><span class="ez-toc-section" id="3_bang_xe_khach"
+                                ez-toc-data-id="#3_bang_xe_khach"></span><span style="font-weight: 400;">3. Bằng Xe
+                                Khách</span><span class="ez-toc-section-end"></span></h3>
+                        <p style="text-align: justify;"><span style="font-weight: 400;">Di chuyển bằng xe khách cũng
+                                tương tự như tàu hoả, tốn khá nhiều thời gian và thể lực của bạn. Bạn đón xe khách từ Hà
+                                Nội đến Cửa khẩu Hữu Nghị và tiếp đó, đi xe điện để sang biên giới làm thủ tục xuất nhập
+                                cảnh. Sau khi hoàn tất, bạn ra bến xe đón xe buýt đi từ cửa khẩu Trung Quốc đến ga Nam
+                                Ninh, rồi từ Nam Ninh đi tới ga Cát Thủ tại Trương Gia Giới và tiếp đó bắt xe buýt để
+                                tới được Phượng Hoàng cổ trấn.&nbsp;</span></p>
+                        <h2 style="text-align: justify;"><span class="ez-toc-section"
+                                id="5_noi_luu_tru_tai_phuong_hoang_co_tran"
+                                ez-toc-data-id="#5_noi_luu_tru_tai_phuong_hoang_co_tran"></span><b>5. Nơi lưu trú tại
+                                Phượng Hoàng cổ trấn</b><span class="ez-toc-section-end"></span></h2>
+                        <p style="text-align: justify;"><span style="font-weight: 400;">Du lịch Phượng Hoàng cổ trấn
+                                Trung Quốc, bạn có thể dừng chân, nghỉ ngơi tại một số khách sạn và homestay.</span></p>
+                        <ul style="text-align: justify;">
+                            <li style="font-weight: 400;" aria-level="1"><b>Khách sạn:</b><span
+                                    style="font-weight: 400;"> Phượng Hoàng Cổ Trấn có nhiều khách sạn ở các mức giá
+                                    khác nhau. Một số khách sạn tại đây có kiến trúc truyền thống và tạo cảm giác rất cổ
+                                    kính, cho bạn những trải nghiệm cực kỳ thoải mái, chất lượng.&nbsp;</span></li>
+                        </ul>
+                        <p style="text-align: justify;"><span style="font-weight: 400;">Những khách sạn tại Phượng Hoàng
+                                cổ trấn chất lượng tốt bạn có thể tham khảo như: Fenghuang Memory Linjiang Inn,
+                                Yifangyan, Hemu House,…</span></p>
+                        <figure id="attachment_10766" aria-describedby="caption-attachment-10766" style="width: 800px"
+                            class="wp
+                            -caption aligncenter w-100"><img decoding="async"
+                                title="Một số gợi ý về nơi lưu trú tại Phượng Hoàng cổ trấn"
+                                alt="Một số gợi ý về nơi lưu trú tại Phượng Hoàng cổ trấn"
+                                data-srcset="https://pttravel.vn/wp-content/uploads/2023/11/Mot-so-goi-y-ve-noi-luu-tru-tai-Phuong-Hoang-co-Tran.jpg 800w, https://pttravel.vn/wp-content/uploads/2023/11/Mot-so-goi-y-ve-noi-luu-tru-tai-Phuong-Hoang-co-Tran-768x480.jpg 768w, https://pttravel.vn/wp-content/uploads/2023/11/Mot-so-goi-y-ve-noi-luu-tru-tai-Phuong-Hoang-co-Tran-500x313.jpg 500w"
+                                data-src="https://pttravel.vn/wp-content/uploads/2023/11/Mot-so-goi-y-ve-noi-luu-tru-tai-Phuong-Hoang-co-Tran.jpg"
+                                data-sizes="(max-width: 800px) 100vw, 800px"
+                                class="img-fluid rounded-top   w-100 wp-image-10766 size-full lazyloaded"
+                                src="https://pttravel.vn/wp-content/uploads/2023/11/Mot-so-goi-y-ve-noi-luu-tru-tai-Phuong-Hoang-co-Tran.jpg"
+                                sizes="(max-width: 800px) 100vw, 800px"
+                                srcset="https://pttravel.vn/wp-content/uploads/2023/11/Mot-so-goi-y-ve-noi-luu-tru-tai-Phuong-Hoang-co-Tran.jpg 800w, https://pttravel.vn/wp-content/uploads/2023/11/Mot-so-goi-y-ve-noi-luu-tru-tai-Phuong-Hoang-co-Tran-768x480.jpg 768w, https://pttravel.vn/wp-content/uploads/2023/11/Mot-so-goi-y-ve-noi-luu-tru-tai-Phuong-Hoang-co-Tran-500x313.jpg 500w"><noscript><img
+                                    decoding="async" class="wp-image-10766 size-full"
+                                    title="Một số gợi ý về nơi lưu trú tại Phượng Hoàng cổ trấn"
+                                    src="https://pttravel.vn/wp-content/uploads/2023/11/Mot-so-goi-y-ve-noi-luu-tru-tai-Phuong-Hoang-co-Tran.jpg"
+                                    alt="Một số gợi ý về nơi lưu trú tại Phượng Hoàng cổ trấn" width="800" height="500"
+                                    srcset="https://pttravel.vn/wp-content/uploads/2023/11/Mot-so-goi-y-ve-noi-luu-tru-tai-Phuong-Hoang-co-Tran.jpg 800w, https://pttravel.vn/wp-content/uploads/2023/11/Mot-so-goi-y-ve-noi-luu-tru-tai-Phuong-Hoang-co-Tran-768x480.jpg 768w, https://pttravel.vn/wp-content/uploads/2023/11/Mot-so-goi-y-ve-noi-luu-tru-tai-Phuong-Hoang-co-Tran-500x313.jpg 500w"
+                                    sizes="(max-width: 800px) 100vw, 800px" /></noscript>
+                            <figcaption id="caption-attachment-10766" class="wp-caption-text">Một số gợi ý về nơi lưu
+                                trú tại Phượng Hoàng cổ trấn</figcaption>
+                        </figure>
+                        <ul style="text-align: justify;">
+                            <li style="font-weight: 400;" aria-level="1"><b>Homestay:</b><span
+                                    style="font-weight: 400;"> Nếu bạn muốn trải nghiệm cuộc sống địa phương và giao
+                                    tiếp với người dân địa phương, thì homestay Phượng Hoàng cổ trấn là nơi lưu trú
+                                    tuyệt vời dành cho bạn.&nbsp;</span></li>
+                        </ul>
+                        <p style="text-align: justify;"><span style="font-weight: 400;">Một vài những gợi ý về homestay
+                                chất lượng cho bạn như: Wang Jiang Reclusive Boutique Inn, Yi Jiang Lou lnn, 166
+                                Inn,…</span></p>
+                        <h2 style="text-align: justify;"><span class="ez-toc-section"
+                                id="6_nhung_dia_diem_noi_tieng_phuong_hoang_co_tran"
+                                ez-toc-data-id="#6_nhung_dia_diem_noi_tieng_phuong_hoang_co_tran"></span><span
+                                style="color: #0a77a9;"><b>6. Những địa điểm nổi tiếng Phượng Hoàng cổ
+                                    trấn</b></span><span class="ez-toc-section-end"></span></h2>
+                        <h3 style="text-align: justify;"><span class="ez-toc-section"
+                                id="61_truong_gia_gioi_%e2%80%93_72_ky_lau"
+                                ez-toc-data-id="#61_truong_gia_gioi_–_72_ky_lau"></span><span
+                                style="font-weight: 400;">6.1 Trương Gia Giới – 72 Kỳ Lầu</span><span
+                                class="ez-toc-section-end"></span></h3>
+                        <p style="text-align: justify;"><span style="font-weight: 400;">Trương Gia Giới – 72 Kỳ Lầu, nơi
+                                được mệnh mệnh danh là cung điện Potala của Miêu tộc, với những một tòa nhà cao, đồ sộ
+                                và tráng lệ. Không gian kiến trúc 72 Kỳ Lầu được thiết kế theo các ngôi nhà truyền
+                                thống. Nhìn từ xa, những tòa nhà lầu này trông như những ngôi nhà Thổ Gia phô diễn với
+                                vẻ ngoài đẹp đẹp mắt, như đang lơ lửng giữa không trung.</span></p>
+                        <figure id="attachment_10767" aria-describedby="caption-attachment-10767" style="width: 800px"
+                            class="wp
+                            -caption aligncenter img-fluid rounded-top   w-100"><img decoding="async"
+                                title="Khám phá khu vực Trương Gia Giới 72 Kỳ Lâu"
+                                alt="Khám phá khu vực Trương Gia Giới 72 Kỳ Lâu" width="800" height="500"
+                                data-srcset="https://pttravel.vn/wp-content/uploads/2023/11/Kham-pha-khu-vuc-Truong-Gia-Gioi-72-Ky-Lau.jpg 800w, https://pttravel.vn/wp-content/uploads/2023/11/Kham-pha-khu-vuc-Truong-Gia-Gioi-72-Ky-Lau-768x480.jpg 768w, https://pttravel.vn/wp-content/uploads/2023/11/Kham-pha-khu-vuc-Truong-Gia-Gioi-72-Ky-Lau-500x313.jpg 500w"
+                                data-src="https://pttravel.vn/wp-content/uploads/2023/11/Kham-pha-khu-vuc-Truong-Gia-Gioi-72-Ky-Lau.jpg"
+                                data-sizes="(max-width: 800px) 100vw, 800px"
+                                class="img-fluid rounded-top   w-100 wp-image-10767 size-full lazyloaded"
+                                src="https://pttravel.vn/wp-content/uploads/2023/11/Kham-pha-khu-vuc-Truong-Gia-Gioi-72-Ky-Lau.jpg"
+                                sizes="(max-width: 800px) 100vw, 800px"
+                                srcset="https://pttravel.vn/wp-content/uploads/2023/11/Kham-pha-khu-vuc-Truong-Gia-Gioi-72-Ky-Lau.jpg 800w, https://pttravel.vn/wp-content/uploads/2023/11/Kham-pha-khu-vuc-Truong-Gia-Gioi-72-Ky-Lau-768x480.jpg 768w, https://pttravel.vn/wp-content/uploads/2023/11/Kham-pha-khu-vuc-Truong-Gia-Gioi-72-Ky-Lau-500x313.jpg 500w"><noscript><img
+                                    decoding="async" class="wp-image-10767 size-full"
+                                    title="Khám phá khu vực Trương Gia Giới 72 Kỳ Lâu"
+                                    src="https://pttravel.vn/wp-content/uploads/2023/11/Kham-pha-khu-vuc-Truong-Gia-Gioi-72-Ky-Lau.jpg"
+                                    alt="Khám phá khu vực Trương Gia Giới 72 Kỳ Lâu" width="800" height="500"
+                                    srcset="https://pttravel.vn/wp-content/uploads/2023/11/Kham-pha-khu-vuc-Truong-Gia-Gioi-72-Ky-Lau.jpg 800w, https://pttravel.vn/wp-content/uploads/2023/11/Kham-pha-khu-vuc-Truong-Gia-Gioi-72-Ky-Lau-768x480.jpg 768w, https://pttravel.vn/wp-content/uploads/2023/11/Kham-pha-khu-vuc-Truong-Gia-Gioi-72-Ky-Lau-500x313.jpg 500w"
+                                    sizes="(max-width: 800px) 100vw, 800px" /></noscript>
+                            <figcaption id="caption-attachment-10767" class="wp-caption-text">Khám phá khu vực Trương
+                                Gia Giới 72 Kỳ Lâu</figcaption>
+                        </figure>
+                        <h3 style="text-align: justify;"><span class="ez-toc-section"
+                                id="62_pho_co_o_phuong_hoang_co_tran"
+                                ez-toc-data-id="#62_pho_co_o_phuong_hoang_co_tran"></span><span
+                                style="font-weight: 400;">6.2 Phố cổ ở Phượng Hoàng cổ trấn&nbsp;</span><span
+                                class="ez-toc-section-end"></span></h3>
+                        <p style="text-align: justify;"><span style="font-weight: 400;">Phố cổ tại Phượng Hoàng Cổ Trấn
+                                là những ngôi nhà nhỏ đại diện của người Miêu với&nbsp; lịch sử hơn 1 nghìn năm. Tại nơi
+                                đây, hoạt động mua bán của người dân địa phương diễn ra sôi nổi, tạo nên sức sống mới mẻ
+                                cho địa khu phố này. Đây cũng là nơi bạn có thể tha hồ chụp ảnh check-in, bất kỳ một
+                                ngóc ngách nào cũng đem tới cho bạn những bức ảnh có background đẹp mắt.</span></p>
+                        <figure id="attachment_10768" aria-describedby="caption-attachment-10768" style="width: 800px"
+                            class="wp
+                            -caption aligncenter img-fluid rounded-top   w-100"><img decoding="async"
+                                title="Khu phố cổ ở Phượng Hoàng cổ trấn" alt="Khu phố cổ ở Phượng Hoàng cổ trấn"
+                                width="800" height="500"
+                                data-srcset="https://pttravel.vn/wp-content/uploads/2023/11/Khu-pho-co-o-Phuong-Hoang-co-tran.jpg 800w, https://pttravel.vn/wp-content/uploads/2023/11/Khu-pho-co-o-Phuong-Hoang-co-tran-768x480.jpg 768w, https://pttravel.vn/wp-content/uploads/2023/11/Khu-pho-co-o-Phuong-Hoang-co-tran-500x313.jpg 500w"
+                                data-src="https://pttravel.vn/wp-content/uploads/2023/11/Khu-pho-co-o-Phuong-Hoang-co-tran.jpg"
+                                data-sizes="(max-width: 800px) 100vw, 800px"
+                                class=" img-fluid rounded-top   w-100 wp-image-10768 size-full lazyloaded"
+                                src="https://pttravel.vn/wp-content/uploads/2023/11/Khu-pho-co-o-Phuong-Hoang-co-tran.jpg"
+                                sizes="(max-width: 800px) 100vw, 800px"
+                                srcset="https://pttravel.vn/wp-content/uploads/2023/11/Khu-pho-co-o-Phuong-Hoang-co-tran.jpg 800w, https://pttravel.vn/wp-content/uploads/2023/11/Khu-pho-co-o-Phuong-Hoang-co-tran-768x480.jpg 768w, https://pttravel.vn/wp-content/uploads/2023/11/Khu-pho-co-o-Phuong-Hoang-co-tran-500x313.jpg 500w"><noscript><img
+                                    decoding="async" class="wp-image-10768 size-full"
+                                    title="Khu phố cổ ở Phượng Hoàng cổ trấn"
+                                    src="https://pttravel.vn/wp-content/uploads/2023/11/Khu-pho-co-o-Phuong-Hoang-co-tran.jpg"
+                                    alt="Khu phố cổ ở Phượng Hoàng cổ trấn" width="800" height="500"
+                                    srcset="https://pttravel.vn/wp-content/uploads/2023/11/Khu-pho-co-o-Phuong-Hoang-co-tran.jpg 800w, https://pttravel.vn/wp-content/uploads/2023/11/Khu-pho-co-o-Phuong-Hoang-co-tran-768x480.jpg 768w, https://pttravel.vn/wp-content/uploads/2023/11/Khu-pho-co-o-Phuong-Hoang-co-tran-500x313.jpg 500w"
+                                    sizes="(max-width: 800px) 100vw, 800px" /></noscript>
+                            <figcaption id="caption-attachment-10768" class="wp-caption-text">Khu phố cổ ở Phượng Hoàng
+                                cổ trấn</figcaption>
+                        </figure>
+                        <h3 style="text-align: justify;"><span class="ez-toc-section"
+                                id="63_vuon_quoc_gia_truong_gia_gioi"
+                                ez-toc-data-id="#63_vuon_quoc_gia_truong_gia_gioi"></span><span
+                                style="font-weight: 400;">6.3 Vườn Quốc Gia Trương Gia Giới</span><span
+                                class="ez-toc-section-end"></span></h3>
+                        <p style="text-align: justify;"><span style="font-weight: 400;">Vườn quốc gia Trương Gia Giới là
+                                khu bảo tồn thiên nhiên sở hữu hơn 3.000 cột, vách đá có độ cao trung bình 800m. Với địa
+                                hình độc đáo, nơi đây gồm có 40 hang động, hẻm núi và rừng nguyên sinh, là nơi trú ngụ
+                                của nhiều loài động thực vật khí hậu ôn đới. Đến đây, bạn sẽ được nhìn ngắm quang cảnh
+                                thiên nhiên hùng vĩ, cùng những thung lũng sâu trong sương mờ, tạo nên một khung cảnh
+                                nên thơ, đầy mê hoặc.</span></p>
+                        <figure id="attachment_10769" aria-describedby="caption-attachment-10769" style="width: 800px"
+                            class="wp
+                            -caption aligncenter img-fluid rounded-top   w-100"><img decoding="async"
+                                title="Núi non vườn quốc gia Trương Gia Giới"
+                                alt="Núi non vườn quốc gia Trương Gia Giới"
+                                data-srcset="https://pttravel.vn/wp-content/uploads/2023/11/Nui-non-vuon-quoc-gia-Truong-Gia-Gioi.jpg 800w, https://pttravel.vn/wp-content/uploads/2023/11/Nui-non-vuon-quoc-gia-Truong-Gia-Gioi-768x480.jpg 768w, https://pttravel.vn/wp-content/uploads/2023/11/Nui-non-vuon-quoc-gia-Truong-Gia-Gioi-500x313.jpg 500w"
+                                data-src="https://pttravel.vn/wp-content/uploads/2023/11/Nui-non-vuon-quoc-gia-Truong-Gia-Gioi.jpg"
+                                data-sizes="(max-width: 800px) 100vw, 800px"
+                                class="wp-image-10769 size-full ls-is-cached lazyloaded img-fluid rounded-top   w-100"
+                                src="https://pttravel.vn/wp-content/uploads/2023/11/Nui-non-vuon-quoc-gia-Truong-Gia-Gioi.jpg"
+                                sizes="(max-width: 800px) 100vw, 800px"
+                                srcset="https://pttravel.vn/wp-content/uploads/2023/11/Nui-non-vuon-quoc-gia-Truong-Gia-Gioi.jpg 800w, https://pttravel.vn/wp-content/uploads/2023/11/Nui-non-vuon-quoc-gia-Truong-Gia-Gioi-768x480.jpg 768w, https://pttravel.vn/wp-content/uploads/2023/11/Nui-non-vuon-quoc-gia-Truong-Gia-Gioi-500x313.jpg 500w"><noscript><img
+                                    decoding="async" class="wp-image-10769 size-full"
+                                    title="Núi non vườn quốc gia Trương Gia Giới"
+                                    src="https://pttravel.vn/wp-content/uploads/2023/11/Nui-non-vuon-quoc-gia-Truong-Gia-Gioi.jpg"
+                                    alt="Núi non vườn quốc gia Trương Gia Giới" width="800" height="500"
+                                    srcset="https://pttravel.vn/wp-content/uploads/2023/11/Nui-non-vuon-quoc-gia-Truong-Gia-Gioi.jpg 800w, https://pttravel.vn/wp-content/uploads/2023/11/Nui-non-vuon-quoc-gia-Truong-Gia-Gioi-768x480.jpg 768w, https://pttravel.vn/wp-content/uploads/2023/11/Nui-non-vuon-quoc-gia-Truong-Gia-Gioi-500x313.jpg 500w"
+                                    sizes="(max-width: 800px) 100vw, 800px" /></noscript>
+                            <figcaption id="caption-attachment-10769" class="wp-caption-text">Núi non vườn quốc gia
+                                Trương Gia Giới</figcaption>
+                        </figure>
+                        <h3 style="text-align: justify;"><span class="ez-toc-section" id="64_thien_mon_son"
+                                ez-toc-data-id="#64_thien_mon_son"></span><span style="font-weight: 400;">6.4 Thiên Môn
+                                Sơn</span><span class="ez-toc-section-end"></span></h3>
+                        <p style="text-align: justify;"><span style="font-weight: 400;">Thiên Môn Sơn là một trong những
+                                ngọn núi có hình thù đặc biệt, đường lên núi dài khoảng 11km, với những khúc cua khúc
+                                khuỷu đầy hiểm trở. Nơi đây sở hữu một cảnh sắc thiên nhiên, núi rừng tuyệt mỹ ở tại
+                                đỉnh núi cao 1.100m. Du khách khi đến đây, còn có thể đi tới đền Thiên Môn Sơn để thắp
+                                nhang, cầu bình an và tham quan cảnh đền.&nbsp;</span></p>
+                        <figure id="attachment_10770" aria-describedby="caption-attachment-10770" style="width: 800px"
+                            class=" img-fluid rounded-top   w-100 wp-caption aligncenter"><img decoding="async" title="
+                            Cảnh quan hùng vĩ Thiên Môn Sơn" alt="Cảnh quan hùng vĩ Thiên Môn Sơn" width="800"
+                                height="500"
+                                data-srcset="https://pttravel.vn/wp-content/uploads/2023/11/Canh-quan-hung-vi-thien-nhien-Thien-Mon-Son.jpg 800w, https://pttravel.vn/wp-content/uploads/2023/11/Canh-quan-hung-vi-thien-nhien-Thien-Mon-Son-768x480.jpg 768w, https://pttravel.vn/wp-content/uploads/2023/11/Canh-quan-hung-vi-thien-nhien-Thien-Mon-Son-500x313.jpg 500w"
+                                data-src="https://pttravel.vn/wp-content/uploads/2023/11/Canh-quan-hung-vi-thien-nhien-Thien-Mon-Son.jpg"
+                                data-sizes="(max-width: 800px) 100vw, 800px"
+                                class=" img-fluid rounded-top   w-100 wp-image-10770 size-full lazyloaded"
+                                src="https://pttravel.vn/wp-content/uploads/2023/11/Canh-quan-hung-vi-thien-nhien-Thien-Mon-Son.jpg"
+                                sizes="(max-width: 800px) 100vw, 800px"
+                                srcset="https://pttravel.vn/wp-content/uploads/2023/11/Canh-quan-hung-vi-thien-nhien-Thien-Mon-Son.jpg 800w, https://pttravel.vn/wp-content/uploads/2023/11/Canh-quan-hung-vi-thien-nhien-Thien-Mon-Son-768x480.jpg 768w, https://pttravel.vn/wp-content/uploads/2023/11/Canh-quan-hung-vi-thien-nhien-Thien-Mon-Son-500x313.jpg 500w"><noscript><img
+                                    decoding="async" class="wp-image-10770 size-full"
+                                    title="Cảnh quan hùng vĩ Thiên Môn Sơn"
+                                    src="https://pttravel.vn/wp-content/uploads/2023/11/Canh-quan-hung-vi-thien-nhien-Thien-Mon-Son.jpg"
+                                    alt="Cảnh quan hùng vĩ Thiên Môn Sơn" width="800" height="500"
+                                    srcset="https://pttravel.vn/wp-content/uploads/2023/11/Canh-quan-hung-vi-thien-nhien-Thien-Mon-Son.jpg 800w, https://pttravel.vn/wp-content/uploads/2023/11/Canh-quan-hung-vi-thien-nhien-Thien-Mon-Son-768x480.jpg 768w, https://pttravel.vn/wp-content/uploads/2023/11/Canh-quan-hung-vi-thien-nhien-Thien-Mon-Son-500x313.jpg 500w"
+                                    sizes="(max-width: 800px) 100vw, 800px" /></noscript>
+                            <figcaption id="caption-attachment-10770" class="wp-caption-text">Cảnh quan hùng vĩ Thiên
+                                Môn Sơn</figcaption>
+                        </figure>
+                        <h3 style="text-align: justify;"><span class="ez-toc-section" id="65_cau_kinh_van_thien_do"
+                                ez-toc-data-id="#65_cau_kinh_van_thien_do"></span><span style="font-weight: 400;">6.5
+                                Cầu Kính Vân Thiên Độ</span><span class="ez-toc-section-end"></span></h3>
+                        <p style="text-align: justify;"><span style="font-weight: 400;">Cầu Kính Vân Thiên Độ là một
+                                công trình nổi tiếng nằm ở tỉnh Hồ Nam, Trung Quốc. Đây là một trong những cầu kính cao
+                                nhất thế giới, nơi du khách có thể trải nghiệm được cảm giác đứng trên kính trong, ngắm
+                                nhìn phong cảnh hoang sơ của núi rừng bao quanh. Cầu kính vượt trội đứng vững trên không
+                                trung, nối liền hai vách đá hiểm trở, mang đến cho bạn sự thách thức và hồi hộp khi đi
+                                trên con cầu.</span></p>
+                        <figure id="attachment_10771" aria-describedby="caption-attachment-10771" style="width: 800px"
+                            class=" img-fluid rounded-top   w-100 wp
+                            -caption aligncenter"><img decoding="async" title="Toàn cảnh cầu kính Vân Thiên Độ&nbsp;"
+                                alt="Toàn cảnh cầu kính Vân Thiên Độ&nbsp;" width="800" height="500"
+                                data-srcset="https://pttravel.vn/wp-content/uploads/2023/11/Toan-canh-cau-kinh-Van-Thien-Do.jpg 800w, https://pttravel.vn/wp-content/uploads/2023/11/Toan-canh-cau-kinh-Van-Thien-Do-768x480.jpg 768w, https://pttravel.vn/wp-content/uploads/2023/11/Toan-canh-cau-kinh-Van-Thien-Do-500x313.jpg 500w"
+                                data-src="https://pttravel.vn/wp-content/uploads/2023/11/Toan-canh-cau-kinh-Van-Thien-Do.jpg"
+                                data-sizes="(max-width: 800px) 100vw, 800px"
+                                class=" img-fluid rounded-top   w-100 wp-image-10771 size-full lazyloaded"
+                                src="https://pttravel.vn/wp-content/uploads/2023/11/Toan-canh-cau-kinh-Van-Thien-Do.jpg"
+                                sizes="(max-width: 800px) 100vw, 800px"
+                                srcset="https://pttravel.vn/wp-content/uploads/2023/11/Toan-canh-cau-kinh-Van-Thien-Do.jpg 800w, https://pttravel.vn/wp-content/uploads/2023/11/Toan-canh-cau-kinh-Van-Thien-Do-768x480.jpg 768w, https://pttravel.vn/wp-content/uploads/2023/11/Toan-canh-cau-kinh-Van-Thien-Do-500x313.jpg 500w"><noscript><img
+                                    decoding="async" class="wp-image-10771 size-full"
+                                    title="Toàn cảnh cầu kính Vân Thiên Độ "
+                                    src="https://pttravel.vn/wp-content/uploads/2023/11/Toan-canh-cau-kinh-Van-Thien-Do.jpg"
+                                    alt="Toàn cảnh cầu kính Vân Thiên Độ " width="800" height="500"
+                                    srcset="https://pttravel.vn/wp-content/uploads/2023/11/Toan-canh-cau-kinh-Van-Thien-Do.jpg 800w, https://pttravel.vn/wp-content/uploads/2023/11/Toan-canh-cau-kinh-Van-Thien-Do-768x480.jpg 768w, https://pttravel.vn/wp-content/uploads/2023/11/Toan-canh-cau-kinh-Van-Thien-Do-500x313.jpg 500w"
+                                    sizes="(max-width: 800px) 100vw, 800px" /></noscript>
+                            <figcaption id="caption-attachment-10771" class="wp-caption-text">Toàn cảnh cầu kính Vân
+                                Thiên Độ</figcaption>
+                        </figure>
+                        <h2 style="text-align: justify;"><span class="ez-toc-section"
+                                id="7_nhung_mon_ngon_doc_dao_ban_phai_thu"
+                                ez-toc-data-id="#7_nhung_mon_ngon_doc_dao_ban_phai_thu"></span><span
+                                style="color: #0a77a9;"><b>7. Những món ngon độc đáo BẠN PHẢI THỬ</b></span><span
+                                class="ez-toc-section-end"></span></h2>
+                        <p style="text-align: justify;"><span style="font-weight: 400;">Đến Phượng Hoàng cổ trấn, bạn sẽ
+                                có cơ hội thưởng thức nhiều món ăn ngon địa phương. Dưới đây là một số món ngon phổ biến
+                                tại Phượng Hoàng cổ trấn:</span></p>
+                        <ul style="text-align: justify;">
+                            <li style="font-weight: 400;" aria-level="1"><b>Lẩu Cá Cay:</b><span
+                                    style="font-weight: 400;"> Cá sẽ được chế biến khi còn tươi nên vẫn giữ được vị ngon
+                                    ngọt của thịt. Khi ăn lẩu cay, bạn ăn cùng với cơm chứ không ăn cùng bún, mì như ở
+                                    Việt Nam.&nbsp;</span></li>
+                            <li style="font-weight: 400;" aria-level="1"><b>Mì tiêu cổ trấn:</b><span
+                                    style="font-weight: 400;"> Đây là một món mì độc đáo, mì mỏng làm từ bột gạo và
+                                    nước, thường được ăn cùng nước dùng đặc biệt, thơm ngon với các loại gia vị tiêu,
+                                    hành lá.</span></li>
+                            <li style="font-weight: 400;" aria-level="1"><b>Bánh canh cổ trấn:</b><span
+                                    style="font-weight: 400;"> Bánh canh là một loại bánh mì trứng với nước dùng và các
+                                    loại nhân như tôm, mực, hay thịt.</span></li>
+                            <li style="font-weight: 400;" aria-level="1"><b>Lòng đào rang muối:</b><span
+                                    style="font-weight: 400;"> Món này được làm từ lòng đào rang muối, tạo ra một hương
+                                    vị độc đáo và hấp dẫn.</span></li>
+                            <li style="font-weight: 400;" aria-level="1"><b>Bánh cỏ hạt sen:</b><span
+                                    style="font-weight: 400;"> Món bánh này thường được làm từ hạt sen và bột gạo, có
+                                    lớp vỏ mỏng bên ngoài và nhân ngon bên trong.</span></li>
+                        </ul>
+                        <h2 style="text-align: justify;"><span class="ez-toc-section"
+                                id="8_qua_luu_niem_khi_di_du_lich_phuong_hoang_co_tran"
+                                ez-toc-data-id="#8_qua_luu_niem_khi_di_du_lich_phuong_hoang_co_tran"></span><span
+                                style="color: #0a77a9;"><b>8. Quà lưu niệm khi đi du lịch Phượng Hoàng cổ
+                                    trấn</b></span><span class="ez-toc-section-end"></span></h2>
+                        <p style="text-align: justify;"><span style="font-weight: 400;">Du lịch Phượng Hoàng cổ trấn
+                                không thể thiếu những món quà lưu niệm, mang nét văn hóa đặc trưng, giúp bạn ghi nhớ
+                                những kỷ niệm, khoảnh khắc thú vị của mình tại nơi này. Dưới đây là một số quà lưu niệm
+                                phổ biến mà bạn có mang về làm quà ở Phượng Hoàng Cổ Trấn:&nbsp;</span></p>
+                        <ul style="text-align: justify;">
+                            <li style="font-weight: 400;" aria-level="1"><b>Trang sức và vòng cổ:</b><span
+                                    style="font-weight: 400;"> Khu vực này có nhiều cửa hàng bán trang sức và vòng cổ
+                                    độc đáo, được làm thủ công bởi các dân tộc thiểu số. Đây có thể là một lựa chọn
+                                    tuyệt vời giúp bạn mang những nét văn hóa Trung Quốc dành tặng người thân.</span>
+                            </li>
+                            <li style="font-weight: 400;" aria-level="1"><b>Tranh sơn dầu:</b><span
+                                    style="font-weight: 400;"> Bức tranh sơn dầu Phượng Hoàng Cổ Trấn là một món quà lưu
+                                    niệm phổ biến đối với khách du lịch. Bạn có thể mua những tranh sơn dầu đẹp, chất
+                                    lượng cao tại đây.</span></li>
+                            <li style="font-weight: 400;" aria-level="1"><b>Đồ thủ công mỹ nghệ gỗ:</b><span
+                                    style="font-weight: 400;"> Phượng Hoàng Cổ Trấn nổi tiếng với mỹ nghệ gỗ và bạn có
+                                    thể tìm thấy nhiều sản phẩm thủ công gỗ tinh xảo như hộp đựng trang sức, đèn trang
+                                    trí, tranh khắc gỗ và nhiều món đồ khác.</span></li>
+                        </ul>
+                        <figure id="attachment_10772" aria-describedby="caption-attachment-10772" style="width: 800px"
+                            class="wp
+                            -caption aligncenter img-fluid rounded-top   w-100"><img decoding="async"
+                                title="Món quà lưu niệm tại Phượng Hoàng cổ trấn"
+                                alt="Món quà lưu niệm tại Phượng Hoàng cổ trấn&nbsp;"
+                                data-srcset="https://pttravel.vn/wp-content/uploads/2023/11/Mon-qua-luu-niem-tai-Phuong-Hoang-co-tran.jpg 800w, https://pttravel.vn/wp-content/uploads/2023/11/Mon-qua-luu-niem-tai-Phuong-Hoang-co-tran-768x480.jpg 768w, https://pttravel.vn/wp-content/uploads/2023/11/Mon-qua-luu-niem-tai-Phuong-Hoang-co-tran-500x313.jpg 500w"
+                                data-src="https://pttravel.vn/wp-content/uploads/2023/11/Mon-qua-luu-niem-tai-Phuong-Hoang-co-tran.jpg"
+                                data-sizes="(max-width: 800px) 100vw, 800px" class="img-fluid rounded-top
+                                w-100 wp-image-10772 size-full lazyloaded"
+                                src="https://pttravel.vn/wp-content/uploads/2023/11/Mon-qua-luu-niem-tai-Phuong-Hoang-co-tran.jpg"
+                                sizes="(max-width: 800px) 100vw, 800px"
+                                srcset="https://pttravel.vn/wp-content/uploads/2023/11/Mon-qua-luu-niem-tai-Phuong-Hoang-co-tran.jpg 800w, https://pttravel.vn/wp-content/uploads/2023/11/Mon-qua-luu-niem-tai-Phuong-Hoang-co-tran-768x480.jpg 768w, https://pttravel.vn/wp-content/uploads/2023/11/Mon-qua-luu-niem-tai-Phuong-Hoang-co-tran-500x313.jpg 500w"><noscript><img
+                                    decoding="async" class="wp-image-10772 size-full"
+                                    title="Món quà lưu niệm tại Phượng Hoàng cổ trấn"
+                                    src="https://pttravel.vn/wp-content/uploads/2023/11/Mon-qua-luu-niem-tai-Phuong-Hoang-co-tran.jpg"
+                                    alt="Món quà lưu niệm tại Phượng Hoàng cổ trấn " width="800" height="500"
+                                    srcset="https://pttravel.vn/wp-content/uploads/2023/11/Mon-qua-luu-niem-tai-Phuong-Hoang-co-tran.jpg 800w, https://pttravel.vn/wp-content/uploads/2023/11/Mon-qua-luu-niem-tai-Phuong-Hoang-co-tran-768x480.jpg 768w, https://pttravel.vn/wp-content/uploads/2023/11/Mon-qua-luu-niem-tai-Phuong-Hoang-co-tran-500x313.jpg 500w"
+                                    sizes="(max-width: 800px) 100vw, 800px" /></noscript>
+                            <figcaption id="caption-attachment-10772" class="wp-caption-text">Món quà lưu niệm tại
+                                Phượng Hoàng cổ trấn</figcaption>
+                        </figure>
+                        <h2 style="text-align: justify;"><span class="ez-toc-section"
+                                id="9_chi_phi_du_lich_phuong_hoang_co_tran_trung_quoc"
+                                ez-toc-data-id="#9_chi_phi_du_lich_phuong_hoang_co_tran_trung_quoc"></span><span
+                                style="color: #0a77a9;"><b>9. Chi phí du lịch Phượng Hoàng cổ trấn Trung
+                                    Quốc</b></span><span class="ez-toc-section-end"></span></h2>
+                        <p style="text-align: justify;"><span style="font-weight: 400;">Nếu du khách lựa chọn du lịch tự
+                                túc tại Phượng Hoàng Cổ Trấn, thì dưới đây là một số chi phí cần thiết để lên kế hoạch
+                                cho chuyến đi của bạn.</span></p>
+                        <ul style="text-align: justify;">
+                            <li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Vé máy bay: Chi
+                                    phí vé máy bay tùy thuộc vào nơi hiện tại đang sống và thời điểm mà bạn đặt vé. Giá
+                                    vé 1 chiều sẽ dao động khoảng từ khoảng 3.910.000 – 4.600.000
+                                    đồng/người.&nbsp;</span></li>
+                            <li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Visa: Để nhập
+                                    cảnh vào Trung Quốc, bạn cần phải cho mình visa. Chi phí visa cũng tùy thuộc vào
+                                    loại visa mà bạn đăng ký.&nbsp; Mức phí lãnh sự cho visa du lịch Trung Quốc là
+                                    khoảng 1.380.000 đồng/người.</span></li>
+                            <li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Phí vào cổng:
+                                    Phí vào cổng để tham quan du lịch Phượng Hoàng Cổ Trấn là khoảng 148 CNY (tương
+                                    đương khoảng gần 600.000 đồng/người) cho mỗi người lớn.</span></li>
+                            <li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Bên cạnh đó,
+                                    khi đến đây bạn còn phải trả một số các chi phí như: chi phí chỗ ở khách
+                                    sạn/homestay, chi phí ăn uống, thăm quan nhiều địa điểm, chi phí đi lại xe buýt,
+                                    taxi, mua quà lưu niệm,…</span></li>
+                        </ul>
+                        <p style="text-align: justify;"><span style="font-weight: 400;">Với những chi phí trên, thì nếu
+                                đi du lịch tới Phượng Hoàng cổ trấn bạn sẽ phải chi khoảng </span><b>12.500.000 –
+                                17.500.000 đồng/người</b><span style="font-weight: 400;"> cho chuyến đi của mình trong
+                                vòng 4 – 5 ngày. Tuy nhiên, nếu bạn muốn trải nghiệm nhiều hoạt động hoặc lưu trú tại
+                                khách sạn cao cấp hơn, chi phí có thể sẽ tăng lên.</span></p>
+                        <h2 style="text-align: justify;"><span class="ez-toc-section"
+                                id="10_cong_ty_to_chuc_tour_du_lich_trung_quoc"
+                                ez-toc-data-id="#10_cong_ty_to_chuc_tour_du_lich_trung_quoc"></span><span
+                                style="color: #0a77a9;"><b>10. Công ty tổ chức tour du lịch Trung Quốc</b></span><span
+                                class="ez-toc-section-end"></span></h2>
+                        <p style="text-align: justify;"><span style="font-weight: 400;">PT Travel là một trong những
+                                công ty tổ chức tour du lịch trong và ngoài nước hàng đầu Việt Nam. Với bề dày nhiều năm
+                                kinh nghiệm, chúng tôi luôn đảm bảo mang đến cho khách hàng những dịch vụ, tiện nghi
+                                thoải mái, chất lượng nhất trong chuyến hành trình du lịch Trung Quốc của mình. Dưới đây
+                                là một số những dịch vụ có trong tour du lịch Trung Quốc của PT Travel.</span></p>
+                        <figure id="attachment_10706" aria-describedby="caption-attachment-10706" style="width: 800px"
+                            class="wp
+                            -caption aligncenter img-fluid rounded-top   w-100"><img decoding="async"
+                                alt="PT Travel công ty chuyên tour du lịch Trung Quốc" width="800" height="500"
+                                data-srcset="https://pttravel.vn/wp-content/uploads/2023/11/PT-Travel-cong-ty-chuyen-tour-du-lich-Trung-Quoc.jpg 800w, https://pttravel.vn/wp-content/uploads/2023/11/PT-Travel-cong-ty-chuyen-tour-du-lich-Trung-Quoc-768x480.jpg 768w, https://pttravel.vn/wp-content/uploads/2023/11/PT-Travel-cong-ty-chuyen-tour-du-lich-Trung-Quoc-500x313.jpg 500w"
+                                data-src="https://pttravel.vn/wp-content/uploads/2023/11/PT-Travel-cong-ty-chuyen-tour-du-lich-Trung-Quoc.jpg"
+                                data-sizes="(max-width: 800px) 100vw, 800px"
+                                class=" img-fluid rounded-top   w-100 size-full wp-image-10706 lazyloaded"
+                                src="https://pttravel.vn/wp-content/uploads/2023/11/PT-Travel-cong-ty-chuyen-tour-du-lich-Trung-Quoc.jpg"
+                                sizes="(max-width: 800px) 100vw, 800px"
+                                srcset="https://pttravel.vn/wp-content/uploads/2023/11/PT-Travel-cong-ty-chuyen-tour-du-lich-Trung-Quoc.jpg 800w, https://pttravel.vn/wp-content/uploads/2023/11/PT-Travel-cong-ty-chuyen-tour-du-lich-Trung-Quoc-768x480.jpg 768w, https://pttravel.vn/wp-content/uploads/2023/11/PT-Travel-cong-ty-chuyen-tour-du-lich-Trung-Quoc-500x313.jpg 500w"><noscript><img
+                                    decoding="async" class="size-full wp-image-10706"
+                                    src="https://pttravel.vn/wp-content/uploads/2023/11/PT-Travel-cong-ty-chuyen-tour-du-lich-Trung-Quoc.jpg"
+                                    alt="PT Travel công ty chuyên tour du lịch Trung Quốc" width="800" height="500"
+                                    srcset="https://pttravel.vn/wp-content/uploads/2023/11/PT-Travel-cong-ty-chuyen-tour-du-lich-Trung-Quoc.jpg 800w, https://pttravel.vn/wp-content/uploads/2023/11/PT-Travel-cong-ty-chuyen-tour-du-lich-Trung-Quoc-768x480.jpg 768w, https://pttravel.vn/wp-content/uploads/2023/11/PT-Travel-cong-ty-chuyen-tour-du-lich-Trung-Quoc-500x313.jpg 500w"
+                                    sizes="(max-width: 800px) 100vw, 800px" /></noscript>
+                            <figcaption id="caption-attachment-10706" class="wp-caption-text">PT Travel công ty chuyên
+                                tour du lịch Trung Quốc</figcaption>
+                        </figure>
+                        <ul style="text-align: justify;">
+                            <li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Nhân viên tư
+                                    vấn, hỗ trợ đặt tour nhanh chóng, dễ dàng.</span></li>
+                            <li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Tổ chức các
+                                    tour du lịch Trung Quốc với nhiều điểm đến nổi tiếng như: Phượng Hoàng Cổ Trấn, Bắc
+                                    Kinh, Lệ Giang,…</span></li>
+                            <li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Lộ trình di
+                                    chuyển rõ ràng giúp du khách tham quan, vui chơi nhiều hoạt động thú vị và hấp dẫn
+                                    tại địa điểm tới.</span></li>
+                            <li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Có hướng dẫn
+                                    viên đồng hành, cung cấp nhiều thông tin hữu ích cho du khách.</span></li>
+                            <li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Hỗ trợ đặt vé
+                                    máy bay, làm visa và chỗ nghỉ ngơi, ăn uống cho khách hàng.</span></li>
+                            <li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Nhiều chương
+                                    trình ưu đãi, cùng mức giá hợp lý, phương thức thanh toán đa dạng, minh bạch.</span>
+                            </li>
+                        </ul>
+                        <p style="text-align: justify;"><i><span style="font-weight: 400;">Trên đây là những thông tin
+                                    về </span></i><b><i>du lịch Phượng Hoàng cổ trấn Trung Quốc</i></b><i><span
+                                    style="font-weight: 400;">. Hy vọng những thông tin này sẽ giúp bạn có một chuyến đi
+                                    du lịch trọn vền và ý nghĩa. Nếu còn thắc mắc về thông tin hay muốn đặt tour du
+                                    lịch, hãy liên hệ đến <span style="color: #0000ff;"><strong><a
+                                                style="color: #0000ff;" href="https://pttravel.vn/">PT
+                                                Travel</a></strong></span> để được cung cấp thông tin và hỗ trợ đặt tour
+                                    du lịch Trung Quốc nhanh chóng nhé!</span></i></p>
+
+
+                        <div class="blog-share text-center">
+                            <div class="is-divider medium"></div>
+                            <div class="social-icons share-icons share-row relative"><a
+                                    href="whatsapp://send?text=Du%20l%E1%BB%8Bch%20Ph%C6%B0%E1%BB%A3ng%20Ho%C3%A0ng%20c%E1%BB%95%20tr%E1%BA%A5n%20Trung%20Qu%E1%BB%91c%20%7C%20Kinh%20nghi%E1%BB%87m%20A-Z - https://pttravel.vn/du-lich-phuong-hoang-co-tran-trung-quoc/"
+                                    data-action="share/whatsapp/share"
+                                    class="icon button circle is-outline tooltip whatsapp show-for-medium"
+                                    title="Share on WhatsApp" aria-label="Share on WhatsApp"><i
+                                        class="icon-whatsapp"></i></a><a
+                                    href="https://www.facebook.com/sharer.php?u=https://pttravel.vn/du-lich-phuong-hoang-co-tran-trung-quoc/"
+                                    data-label="Facebook"
+                                    onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px');  return false;"
+                                    rel="noopener noreferrer nofollow" target="_blank"
+                                    class="icon button circle is-outline tooltip facebook" title="Share on Facebook"
+                                    aria-label="Share on Facebook"><i class="icon-facebook"></i></a><a
+                                    href="https://twitter.com/share?url=https://pttravel.vn/du-lich-phuong-hoang-co-tran-trung-quoc/"
+                                    onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px');  return false;"
+                                    rel="noopener noreferrer nofollow" target="_blank"
+                                    class="icon button circle is-outline tooltip twitter" title="Share on Twitter"
+                                    aria-label="Share on Twitter"><i class="icon-twitter"></i></a><a
+                                    href="mailto:enteryour@addresshere.com?subject=Du%20l%E1%BB%8Bch%20Ph%C6%B0%E1%BB%A3ng%20Ho%C3%A0ng%20c%E1%BB%95%20tr%E1%BA%A5n%20Trung%20Qu%E1%BB%91c%20%7C%20Kinh%20nghi%E1%BB%87m%20A-Z&amp;body=Check%20this%20out:%20https://pttravel.vn/du-lich-phuong-hoang-co-tran-trung-quoc/"
+                                    rel="nofollow" class="icon button circle is-outline tooltip email"
+                                    title="Email to a Friend" aria-label="Email to a Friend"><i
+                                        class="icon-envelop"></i></a><a
+                                    href="https://pinterest.com/pin/create/button/?url=https://pttravel.vn/du-lich-phuong-hoang-co-tran-trung-quoc/&amp;media=https://pttravel.vn/wp-content/uploads/2023/11/Nui-non-vuon-quoc-gia-Truong-Gia-Gioi.jpg&amp;description=Du%20l%E1%BB%8Bch%20Ph%C6%B0%E1%BB%A3ng%20Ho%C3%A0ng%20c%E1%BB%95%20tr%E1%BA%A5n%20Trung%20Qu%E1%BB%91c%20%7C%20Kinh%20nghi%E1%BB%87m%20A-Z"
+                                    onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px');  return false;"
+                                    rel="noopener noreferrer nofollow" target="_blank"
+                                    class="icon button circle is-outline tooltip pinterest" title="Pin on Pinterest"
+                                    aria-label="Pin on Pinterest"><i class="icon-pinterest"></i></a><a
+                                    href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://pttravel.vn/du-lich-phuong-hoang-co-tran-trung-quoc/&amp;title=Du%20l%E1%BB%8Bch%20Ph%C6%B0%E1%BB%A3ng%20Ho%C3%A0ng%20c%E1%BB%95%20tr%E1%BA%A5n%20Trung%20Qu%E1%BB%91c%20%7C%20Kinh%20nghi%E1%BB%87m%20A-Z"
+                                    onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px');  return false;"
+                                    rel="noopener noreferrer nofollow" target="_blank"
+                                    class="icon button circle is-outline tooltip linkedin" title="Share on LinkedIn"
+                                    aria-label="Share on LinkedIn"><i class="icon-linkedin"></i></a></div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-3 d-xl-none d-xxl-block d-none">
+                    <h5 class="text-primary">GỌI NGAY ĐỂ ĐƯỢC TƯ VẤN
+                    </h5>
+                    <a name="" id="" class="btn bg-warning w-100 text-white  " href="#" role="button">0826 15 15
+                        15</a>
+                    <a name="" id="" class="btn bg-primary w-100 text-white mt-2 mb-5" href="#" role="button">0826 15 15
+                        15</a>
+                    <h3 class="text-primary">CHUYÊN MỤC
+                        <hr>
+                        <!-- Hover added -->
+                        <div class="list-group">
+                            <a href="#" class="list-group-item list-group-item-action fs-5 h5  ">Cẩm Nang Du Lịch Quốc
+                                Tế</a>
+                            <a href="#" class="list-group-item list-group-item-action fs-5 h5">Địa điểm du lịch</a>
+                            <a href="#" class="list-group-item list-group-item-action fs-5 h5">Hộ Chiếu Online</a>
+                            <a href="#" class="list-group-item list-group-item-action fs-5 h5">Khách Sạn</a>
+                            <a href="#" class="list-group-item list-group-item-action fs-5 h5">Kinh nghiệm du lịch Việt
+                                Nam</a>
+                            <a href="#" class="list-group-item list-group-item-action fs-5 h5">Sự kiện team building</a>
+                            <a href="#" class="list-group-item list-group-item-action fs-5 h5">Tin tức</a>
+                            <a href="#" class="list-group-item list-group-item-action fs-5 h5">Tuyển dụng</a>
+
+
+
+
+
+                        </div>
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <div class="bg-primary text-white">
+        <div class="container">
+            <footer class="py-5">
+                <div class="row">
+                    <div class="col-lg-3 col-sm-12 col-md-6">
+                        <h5><img src="https://cdn.animaapp.com/projects/65e9bdee82ef1684dfd23e1f/releases/65e9be514cad58186f14407c/img/logo-pttravel-chu-trang-png@2x.png"
+                                class="img-fluid rounded-top" alt="" />
+                        </h5>
+                        <ul class="nav flex-column text-white">
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">PTTravel nỗ lực từng
+                                    ngày
+                                    để
+                                    đem đến những sản phẩm du
+                                    lịch mới mẻ và chất lượng dịch
+                                    vụ hoàn hảo tới khách hàng.</a></li>
+
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-sm-12 col-md-6">
+                        <h5>HOẠT ĐỘNG
+                        </h5>
+                        <ul class="nav flex-column text-white">
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Về PT Travel</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Tuyển dụng</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Hồ sơ năng lực</a>
+                            </li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Thuê xe du lịch</a>
+                            </li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Blog du lịch</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Dịch vụ visa
+                                </a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-sm-12 col-md-6">
+                        <h5>THÔNG TIN HỮU ÍCH
+                        </h5>
+                        <ul class="nav flex-column text-white">
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Hướng dẫn thanh
+                                    toán</a>
+                            </li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Chính sách hoãn hủy
+                                    tour</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Điều khoản sử dụng</a>
+                            </li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Chính sách bảo mật</a>
+                            </li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Bản quyền hình ảnh</a>
+                            </li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Liên hệ
+                                </a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-sm-12 col-md-6">
+                        <h5>THÔNG TIN HỮU ÍCH
+                        </h5>
+                        <ul class="nav flex-column text-white">
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Add: Tòa CT4 – Chung
+                                    cư
+                                    Iris Garden, 30 Trần
+                                    Hữu Dực, Nam Từ Liêm, Hà Nội</a>
+                            </li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Hotline: 0832 577
+                                    555</a>
+                            </li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Điều khoản sử dụng</a>
+                            </li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Tel: 0826 15 15 15</a>
+                            </li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Email:
+                                    info@pttravel.vn</a>
+                            </li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Website: pttravel.vn
+                                </a></li>
+                        </ul>
+                    </div>
+
+
+                </div>
+
+                <div class="d-flex justify-content-between py-4 my-4 border-top">
+
+                    <div>
+                        <p class="m-0">CÔNG TY TNHH DỊCH VỤ AM VIỆT NAM</p> <br>
+                        <p class="m-0">- Giấy phép kinh doanh số: 0110137416 - Giấy phép Kinh doanh Lữ hành số:
+                            01-0324/2022/SDL-GP
+                            LHND
+                            - Giấy phép Vận tải số:
+                            9488/GPKDVT</p>
+                    </div>
+                    <ul class="list-unstyled d-flex">
+                        <img style="height: 100px;"
+                            src="https://cdn.animaapp.com/projects/65e9bdee82ef1684dfd23e1f/releases/65e9be514cad58186f14407c/img/link---logo-png-2048x2048-png@2x.png"
+                            class="img-fluid rounded-top" alt="" />
+
+                    </ul>
+
+                </div>
+
+            </footer>
+        </div>
+    </div>
+
+    <div class="bg-secondary">
+
+        <div class="container ">
+            <div class="d-flex justify-content-between  align-content-center align-items-cente p-2 flex-wrap">
+
+                <p class="m-0 d-flex   bg-secondary align-content-center align-items-center text-white">CÔNG TY TNHH
+                    DỊCH VỤ AM
+                    VIỆT
+                    NAM
+                </p>
+                <br>
+
+                <ul
+                    class="list-unstyled d-flex m-0 justify-content-center  align-content-center align-items-center gap-2">
+                    <img src="https://cdn.animaapp.com/projects/65e9bdee82ef1684dfd23e1f/releases/65e9be514cad58186f14407c/img/div-payment-icon-1.svg"
+                        class="img-fluid rounded-top" alt="" />
+                    <img src="https://cdn.animaapp.com/projects/65e9bdee82ef1684dfd23e1f/releases/65e9be514cad58186f14407c/img/div-payment-icon-1.svg"
+                        class="img-fluid rounded-top" alt="" />
+                    <img src="https://cdn.animaapp.com/projects/65e9bdee82ef1684dfd23e1f/releases/65e9be514cad58186f14407c/img/div-payment-icon-1.svg"
+                        class="img-fluid rounded-top" alt="" />
+                    <img src="https://cdn.animaapp.com/projects/65e9bdee82ef1684dfd23e1f/releases/65e9be514cad58186f14407c/img/div-payment-icon-1.svg"
+                        class="img-fluid rounded-top" alt="" />
+
+                </ul>
+
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
