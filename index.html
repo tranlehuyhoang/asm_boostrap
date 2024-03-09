@@ -14,105 +14,132 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 </head>
 
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+        var prevScrollPosition = $(window).scrollTop();
+
+        $(window).scroll(function () {
+            var currentScrollPosition = $(this).scrollTop();
+
+            if (currentScrollPosition > prevScrollPosition) {
+                $('.heheh').removeClass('fixed-top');
+            } else {
+                $('.heheh').addClass('fixed-top');
+            }
+
+            if (currentScrollPosition === 0) {
+                $('.heheh').removeClass('fixed-top');
+            }
+
+            prevScrollPosition = currentScrollPosition;
+        });
+    });
+</script>
+
 <body class="">
-    <nav class="navbar bg-gradient navbar-expand-lg  bg-warning  ">
-        <div class="container">
+    <div class="heheh" style="  transition: all 500s ease-in-out;">
+
+        <nav class="navbar bg-gradient navbar-expand-lg  bg-warning  ">
+            <div class="container">
 
 
-            <div class="collapse navbar-collapse" id="collapsibleNavId">
-                <ul class="navbar-nav me-auto mt-2 mt-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#" aria-current="page">Hotline:
-                            <span class="visually-hidden">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">0826 15 15 15</a>
-                    </li>
-
-                </ul>
-                <form class="d-flex my-2 my-lg-0">
+                <div class="collapse navbar-collapse" id="collapsibleNavId">
                     <ul class="navbar-nav me-auto mt-2 mt-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" href="#" aria-current="page">Liên hệ
+                            <a class="nav-link active" href="#" aria-current="page">Hotline:
                                 <span class="visually-hidden">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Hồ sơ năng lực</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Tuyển dụng</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./dang-ky.html">Đăng ký</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./dang-nhap.html">Đăng nhập</a>
+                            <a class="nav-link" href="#">0826 15 15 15</a>
                         </li>
 
                     </ul>
-                </form>
-            </div>
-        </div>
-    </nav>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light  ">
-        <div class="container">
-            <a class="navbar-brand" href="./index.html"><img style="height:  ;"
-                    src="https://cdn.animaapp.com/projects/65e9bdee82ef1684dfd23e1f/releases/65e9be514cad58186f14407c/img/link---logo-pttravel-png@2x.png"
-                    class="img-fluid rounded-top" alt="" />
-            </a>
-            <button class="navbar-toggler hidden-lg-up" type="button" data-bs-toggle="collapse"
-                data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
-                aria-label="Toggle navigation"><i class="bi bi-list"></i></button>
-            <div class="collapse navbar-collapse" id="collapsibleNavId">
-                <ul class="navbar-nav me-auto mt-2 mt-lg-0">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown"
-                            aria-haspopup="true" aria-expanded="false">DU LỊCH TRONG NƯỚC</a>
-                        <div class="dropdown-menu" aria-labelledby="dropdownId">
-                            <a class="dropdown-item" href="#">Du lịch Hà Giang</a>
-                            <a class="dropdown-item" href="#">Du lịch Hà Giang</a>
-                            <a class="dropdown-item" href="#">Du lịch Hà Giang</a>
-                            <a class="dropdown-item" href="#">Du lịch Hà Giang</a>
-                            <a class="dropdown-item" href="#">Du lịch Hà Giang</a>
+                    <form class="d-flex my-2 my-lg-0">
+                        <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#" aria-current="page">Liên hệ
+                                    <span class="visually-hidden">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Hồ sơ năng lực</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Tuyển dụng</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./dang-ky.html">Đăng ký</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./dang-nhap.html">Đăng nhập</a>
+                            </li>
 
-                        </div>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown"
-                            aria-haspopup="true" aria-expanded="false">DU LỊCH NƯỚC NGOÀI</a>
-                        <div class="dropdown-menu" aria-labelledby="dropdownId">
-                            <a class="dropdown-item" href="#">Action 1</a>
-                            <a class="dropdown-item" href="#">Action 2</a>
-                        </div>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown"
-                            aria-haspopup="true" aria-expanded="false">THUÊ XE DU LỊCH</a>
-                        <div class="dropdown-menu" aria-labelledby="dropdownId">
-                            <a class="dropdown-item" href="#">Action 1</a>
-                            <a class="dropdown-item" href="#">Action 2</a>
-                        </div>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown"
-                            aria-haspopup="true" aria-expanded="false">DỊCH VỤ VISA</a>
-                        <div class="dropdown-menu" aria-labelledby="dropdownId">
-                            <a class="dropdown-item" href="#">Action 1</a>
-                            <a class="dropdown-item" href="#">Action 2</a>
-                        </div>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown"
-                            aria-haspopup="true" aria-expanded="false">TIN TỨC</a>
-                        <div class="dropdown-menu" aria-labelledby="dropdownId">
-                            <a class="dropdown-item" href="#">Action 1</a>
-                            <a class="dropdown-item" href="#">Action 2</a>
-                        </div>
-                    </li>
-                </ul>
+                        </ul>
+                    </form>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light  ">
+            <div class="container">
+                <a class="navbar-brand" href="./index.html"><img style="height:  ;"
+                        src="https://cdn.animaapp.com/projects/65e9bdee82ef1684dfd23e1f/releases/65e9be514cad58186f14407c/img/link---logo-pttravel-png@2x.png"
+                        class="img-fluid rounded-top" alt="" />
+                </a>
+                <button class="navbar-toggler hidden-lg-up" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                    aria-label="Toggle navigation"><i class="bi bi-list"></i></button>
+                <div class="collapse navbar-collapse" id="collapsibleNavId">
+                    <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">DU LỊCH TRONG NƯỚC</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownId">
+                                <a class="dropdown-item" href="#">Du lịch Hà Giang</a>
+                                <a class="dropdown-item" href="#">Du lịch Hà Giang</a>
+                                <a class="dropdown-item" href="#">Du lịch Hà Giang</a>
+                                <a class="dropdown-item" href="#">Du lịch Hà Giang</a>
+                                <a class="dropdown-item" href="#">Du lịch Hà Giang</a>
+
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">DU LỊCH NƯỚC NGOÀI</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownId">
+                                <a class="dropdown-item" href="#">Action 1</a>
+                                <a class="dropdown-item" href="#">Action 2</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">THUÊ XE DU LỊCH</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownId">
+                                <a class="dropdown-item" href="#">Action 1</a>
+                                <a class="dropdown-item" href="#">Action 2</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">DỊCH VỤ VISA</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownId">
+                                <a class="dropdown-item" href="#">Action 1</a>
+                                <a class="dropdown-item" href="#">Action 2</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">TIN TỨC</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownId">
+                                <a class="dropdown-item" href="#">Action 1</a>
+                                <a class="dropdown-item" href="#">Action 2</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
     <div class="px-4 py-5 text-light  text-center bg-secondary"
         style="background-image: url(https://cdn.animaapp.com/projects/65e9bdee82ef1684dfd23e1f/releases/65e9be514cad58186f14407c/img/div-section-bg.png) ; background-size:cover ; background-position: center; background-repeat: no-repeat;">
 
@@ -662,7 +689,7 @@
                 <div class="row h-100   g-2">
                     <div class=" d-flex justify-content-between align-items-center  ">
                         <h4 class="text-primary">TOUR KHUYẾN MÃI</h4>
-                        <a href="./danh-muc.html">xem tất cả</a>
+                        <a href="./danh-muc-tin-tuc.html">xem tất cả</a>
                     </div>
                     <div class="card  ">
                         <img class="card-img-top"
@@ -717,7 +744,7 @@
             <div class="col-lg-6 col-md-12">
                 <div class=" d-flex justify-content-between align-items-center  ">
                     <h4 class="text-primary">TOUR KHUYẾN MÃI</h4>
-                    <a href="./danh-muc.html">xem tất cả</a>
+                    <a href="./danh-muc-tin-tuc.html">xem tất cả</a>
                 </div>
                 <div class="card mt-2 ">
 
@@ -981,6 +1008,7 @@
         id="btn-back-to-top">
         <i class="fas fa-arrow-up"></i>
     </button>
+
     <script>
         //Get the button
         let mybutton = document.getElementById("btn-back-to-top");
